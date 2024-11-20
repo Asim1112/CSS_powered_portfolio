@@ -1,0 +1,439 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/About/About.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+    padding-top: 8rem; /* Equivalent to pt-32 */
+    margin: 0 auto;
+    max-width: 1500px; /* Adjust as per design */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Medium screen and above */
+  @media (min-width: 768px) {
+    .about-heading {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  /* Paragraph styles */
+  .about-text {
+    color: #E5E5E5; /* Equivalent to text-[#E5E5E5] */
+    padding-top: 1rem; /* Equivalent to pt-4 */
+    line-height: 1.6;
+  }
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Contact/Contact.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* Contact.css */
+
+/* Main container for contact section */
+.contact-container {
+    padding-top: 8rem; /* Equivalent to pt-32 */
+    margin: 0 auto;
+    max-width: 1520px; /* Adjust according to your design */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Grid layout for the contact section */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  @media (min-width: 768px) {
+    .contact-grid {
+      grid-template-columns: repeat(2, 1fr); /* Equivalent to md:grid-cols-2 */
+    }
+  }
+  
+  /* Contact information section */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Equivalent to space-y-8 */
+  }
+  
+  /* Heading styles */
+  .contact-heading {
+    font-size: 3rem; /* Equivalent to text-5xl */
+    font-weight: 400;
+    line-height: 0;
+  }
+  
+  /* Description text styles */
+  .contact-description {
+    color: #e5e5e5;
+    font-size: 18px;
+     /* Equivalent to pt-2 */
+  }
+  
+  /* Contact details (email, phone) */
+  .contact-details1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Equivalent to gap-3 */
+  }
+  
+  .contact-details2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Equivalent to gap-3 */
+    margin-top: 15px;
+  }
+  /* Contact form section */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  
+  /* Form field styles */
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Equivalent to gap-1 */
+  }
+  
+  /* Input and textarea styles */
+  .form-input,
+  .form-textarea {
+    background-color: transparent;
+    border: 1px solid #32a89b; /* Equivalent to border-[#32a89b] */
+    padding: 0.7rem;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  /* Send button */
+  .send-button {
+    background-color: #32a89b;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding: 0.6rem;
+    margin-right: 89%;
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Segoe UI';
+  }
+  
+  /* Hover effect for the button */
+  .send-button:hover {
+    background-color: #28a081; /* Slightly darker shade */
+  }
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Navbar/Navbar.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/* Navbar container */
+.navbar-container {
+    padding-top: 1.5rem; /* Equivalent to pt-8 */
+    margin: 0 auto; /* Centers the container */
+    max-width: 1500px; /* Match the default Tailwind container size */
+  }
+  
+  /* Navbar flex container */
+  .navbar-flex {
+    display: flex; /* Equivalent to flex */
+    justify-content: space-between; /* Equivalent to justify-between */
+    align-items: center; /* Equivalent to items-center */
+  }
+  
+  /* Logo or title */
+  .navbar-title {
+    font-size: 1.1rem; /* Equivalent to text-xl */
+    font-weight: 500; /* Equivalent to font-medium */
+  }
+  
+  /* Menu items */
+  .navbar-menu {
+    display: none; /* Initially hidden for smaller screens */
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  .navbar-menu-lg {
+    gap: 4rem; /* Equivalent to lg:gap-16 for larger screens */
+  }
+  
+  .navbar-menu-link {
+    list-style: none; /* Removes default list styling */
+  }
+  
+  .navbar-menu-link a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits text color */
+  }
+  
+  /* Mobile menu icon */
+  .navbar-menu-icon {
+    display: block; /* Visible on smaller screens */
+  }
+  
+  .navbar-menu-icon-md {
+    display: none; /* Hidden on medium screens and above */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .navbar-menu {
+      display: flex; /* Equivalent to md:flex */
+    }
+    .navbar-menu-icon {
+      display: none; /* Hides the icon on medium screens and above */
+    }
+  }
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Hero/Hero.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.hero {
+    min-height: 100vh; /* Equivalent to min-h-screen */
+    background-repeat: no-repeat; /* Equivalent to bg-no-repeat */
+    background-size: 20%; /* Equivalent to bg-cover (with specific background size) */
+    background-position: left 300px top 300px; /* Custom position for background */
+  }
+  
+  .hero-container {
+    display: grid; /* Equivalent to grid */
+    height: calc(100vh - 60px); /* Equivalent to h-[calc(100vh-60px)] */
+    grid-template-columns: repeat(1, 1fr); /* Default 1 column for small screens */
+  }
+  
+  .hero-container-lg {
+    display: grid; /* Equivalent to grid for large screens */
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to lg:grid-cols-2 for large screens */
+  }
+  
+  .hero-profile {
+    display: none; /* Initially hidden */
+    justify-content: center; /* Center the profile picture */
+    align-items: center; /* Center the profile picture */
+  }
+  
+  .hero-profile-visible {
+    display: flex; /* Display on large screens */
+  }
+  
+  .profile-picture {
+    width: 20rem; /* Equivalent to w-80 */
+    height: 20rem; /* Equivalent to h-80 */
+    border-radius: 50%; /* Equivalent to rounded-full */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Equivalent to shadow-2xl */
+    background-size: cover; /* Ensures image fills the circle */
+    background-position: center; /* Centers the profile image */
+  }
+  
+  .hero-text {
+    font-size: 5rem; /* Equivalent to text-[80px] */
+    font-weight: bold; /* Equivalent to font-bold */
+    line-height: 1.25; /* Equivalent to leading-tight */
+    display: flex; /* Use flex to center content */
+    flex-direction: column; /* Stack the text vertically */
+    justify-content: center; /* Center the text */
+    align-items: center; /* Center the text */
+}
+
+.hero-text-sm {
+    font-size: 6.25rem; /* Equivalent to sm:text-[100px] */
+}
+
+.hero-text p {
+    margin: 0; /* Remove default margins */
+    line-height: 1; /* Tighten line spacing */
+    padding: 0.1em 0; /* Optional: Add a slight vertical padding for spacing */
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Heading/Heading.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.heading-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 20vh; /* Make container take full height of the viewport */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  text-align: center; /* Center-align text */
+}
+
+.heading-title {
+  border-bottom: 4px solid; /* Adds a bottom border */
+  display: inline-block; /* Ensures only the text is affected by the border */
+  padding-bottom: 0.5rem; /* Space between text and border */
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Card/Card.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+/* Card.css */
+
+/* Card container */
+.card {
+  border: 1px solid #a0a4b8; /* Border with specified color */
+  width: 300px; /* Default width */
+  margin: 0 auto; /* Center align in parent container if needed */
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) { /* Tailwind's sm breakpoint is 640px */
+  .card {
+      width: 350px; /* Adjust width for small screens and above */
+  }
+}
+
+/* Image styles */
+.card-image {
+  width: 300px; /* Default width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 640px) {
+  .card-image {
+      width: 350px; /* Adjust width for small screens and above */
+  }
+}
+
+/* Card content styles */
+.card-content {
+  padding: 1rem; /* Equivalent to p-4 in Tailwind */
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem; /* Increased gap for better spacing */
+  height: 100%;
+  justify-content: space-between;
+}
+
+/* Card title */
+.card-title {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: 100; /* Slightly lighter font weight */
+  line-height: 1.2; /* Improved line height */
+}
+
+/* Description text */
+.card-content div:nth-child(2) {
+  font-size: 1rem; /* Slightly larger text */
+  line-height: 1.5; /* Increased line height for better readability */
+  color: #fff; /* Optional: Set text color for contrast */
+}
+
+.card-content div:last-child {
+  margin-top: auto;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Projects/Projects.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/* General container styles */
+.projects-container {
+    margin: 0 auto; /* Centers the container */
+    padding-top: 8rem; /* Equivalent to pt-32 */
+    max-width: 80rem; /* Equivalent to max-w-5xl */
+  }
+  
+  /* Grid layout for projects */
+  .projects-grid {
+    display: grid; /* Grid layout */
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  .projects-grid-xl {
+    row-gap: 2.5rem; /* Equivalent to xl:gap-y-10 */
+  }
+  
+  .projects-grid-md {
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to md:grid-cols-2 */
+  }
+  
+  .projects-grid-lg {
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to lg:grid-cols-2 */
+  }
+  
+  .projects-grid-place-items {
+    place-items: stretch; /* Aligns items as stretch */
+  }
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Skills/Skills.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/* Container */
+#skills {
+    margin: 0 auto;
+    padding-top: 8rem; /* Equivalent to pt-32 */
+    max-width: 80%; /* Matches Tailwind's 'container' */
+  }
+  
+  /* Grid layout for main content */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem; /* Equivalent to gap-20 */
+    align-items: center; /* Equivalent to items-center */
+  }
+  
+  /* Media query for md:grid-cols-2 */
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Heading text styles */
+  .skills-title {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-weight: 400;
+    line-height: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .skills-title {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  /* Paragraph styles */
+  .skills-description {
+    color: #e5e5e5; /* Matches text-[#E5E5E5] */
+    padding-top: 0.5rem; /* Equivalent to pt-2 */
+    line-height: 1.5;
+  }
+  
+  /* Grid layout for technologies */
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Matches grid-cols-2 */
+    color: #f0f0f0; /* Matches text-[#F0F0F0] */
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+  }
+  
+  @media (min-width: 640px) {
+    .technologies-grid {
+      font-size: 1.5rem; /* Equivalent to sm:text-4xl */;
+      line-height: 0.1;
+      ;
+    }
+  }
+  
+  /* Space between technology items */
+  .technology-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Equivalent to space-y-2 */
+    line-height:0;
+  }
+
+  .heading-skills {
+    font-weight: 400;
+    line-height: 0;
+  }

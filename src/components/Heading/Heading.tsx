@@ -1,5 +1,5 @@
 import React from 'react';
-import './heading.css';  // Import the CSS file
+import './Heading.css';  // Import the CSS file
 
 interface propsType {
   title: string;

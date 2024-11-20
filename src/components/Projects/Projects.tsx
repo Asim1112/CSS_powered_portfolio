@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from "../Heading/Heading";
 import Card from "../Card/Card";
-import './projects.css'; // Import the CSS file
+import './Projects.css'; // Import the CSS file
 
 const data = [
   {

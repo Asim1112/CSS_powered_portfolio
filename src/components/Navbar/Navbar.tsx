@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiMenuFill } from "react-icons/ri";
-import './navbar.css'; // Import the CSS file
+import './Navbar.css'; // Import the CSS file
 
 function Navbar() {
   return (

@@ -1,0 +1,93 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistSans_1e4310';
+src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistSans_Fallback_1e4310';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}.__variable_1e4310 {--font-geist-sans: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistMono_c3aa02';
+src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistMono_Fallback_c3aa02';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}.__variable_c3aa02 {--font-geist-mono: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+body {
+  color: #fff;
+  background: linear-gradient(to right, rgb(17, 24, 39), rgb(31, 41, 55), rgb(55, 65, 81));
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif; /* You can add a specific font family here */
+}
+
+/* Components */
+.navbar-menu-link {
+  cursor: pointer;
+  transition: color 0.3s ease; /* Optional: smooth transition for hover effect */
+  color:#fff;
+}
+
+.navbar-menu-link:hover {
+  color: #c5c5c5;
+}
+
+.tags {
+  background-color: #4e66b8; /* Default background color */
+  margin-right: 0.5rem; /* Horizontal spacing between tags */
+  margin-top: 0.5rem; /* Vertical spacing between rows of tags */
+  padding: 4px 12px; /* Adjusted padding for a balanced appearance */
+  display: inline-block; /* Keep tags inline */
+  color: #fff; /* Text color */
+  font-size: 12px; /* Slightly larger text for better readability */
+  font-weight: 500; /* Medium font weight for emphasis */
+  border-radius: 3px; /* Smooth rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.tags:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #3a5094; /* Darker shade on hover */
+}
+
+/* Specific styles for nth-child tags */
+.tags:nth-child(2) {
+  background-color: #b36f56; /* Custom color for the second tag */
+}
+
+.tags:nth-child(3) {
+  background-color: #6a7c4f; /* Custom color for the third tag */
+}
+
+.tags:nth-child(4) {
+  background-color: #008B8B; /* Custom color for the fourth tag */
+}
+
+.tags:last-child {
+  margin-right: 0; /* Remove margin for the last tag */
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/components/Footer/Footer.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+    margin-top: 4rem; /* Equivalent to mt-16 */
+    padding-top: 1.5rem; /* Equivalent to py-6 */
+    padding-bottom: 1.5rem; /* Equivalent to py-6 */
+    text-align: center; /* Equivalent to text-center */
+    background: linear-gradient(to right, rgb(17, 24, 39), rgb(31, 41, 55), rgb(55, 65, 81)); /* Equivalent to bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 */
+  }

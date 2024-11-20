@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
-import './hero.css';  // Import the CSS file
+import './Hero.css';  // Import the CSS file
 
 function Hero() {
   return (
