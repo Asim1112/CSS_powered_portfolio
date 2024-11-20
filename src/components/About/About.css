@@ -1,0 +1,29 @@
+.container {
+    padding-top: 8rem; /* Equivalent to pt-32 */
+    margin: 0 auto;
+    max-width: 1500px; /* Adjust as per design */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Medium screen and above */
+  @media (min-width: 768px) {
+    .about-heading {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  /* Paragraph styles */
+  .about-text {
+    color: #E5E5E5; /* Equivalent to text-[#E5E5E5] */
+    padding-top: 1rem; /* Equivalent to pt-4 */
+    line-height: 1.6;
+  }

@@ -1,0 +1,14 @@
+.heading-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 20vh; /* Make container take full height of the viewport */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  text-align: center; /* Center-align text */
+}
+
+.heading-title {
+  border-bottom: 4px solid; /* Adds a bottom border */
+  display: inline-block; /* Ensures only the text is affected by the border */
+  padding-bottom: 0.5rem; /* Space between text and border */
+}

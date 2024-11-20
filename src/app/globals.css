@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  background: linear-gradient(to right, rgb(17, 24, 39), rgb(31, 41, 55), rgb(55, 65, 81));
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif; /* You can add a specific font family here */
+}
+
+/* Components */
+.navbar-menu-link {
+  cursor: pointer;
+  transition: color 0.3s ease; /* Optional: smooth transition for hover effect */
+  color:#fff;
+}
+
+.navbar-menu-link:hover {
+  color: #c5c5c5;
+}
+
+.tags {
+  background-color: #4e66b8; /* Default background color */
+  margin-right: 0.5rem; /* Horizontal spacing between tags */
+  margin-top: 0.5rem; /* Vertical spacing between rows of tags */
+  padding: 4px 12px; /* Adjusted padding for a balanced appearance */
+  display: inline-block; /* Keep tags inline */
+  color: #fff; /* Text color */
+  font-size: 12px; /* Slightly larger text for better readability */
+  font-weight: 500; /* Medium font weight for emphasis */
+  border-radius: 3px; /* Smooth rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.tags:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #3a5094; /* Darker shade on hover */
+}
+
+/* Specific styles for nth-child tags */
+.tags:nth-child(2) {
+  background-color: #b36f56; /* Custom color for the second tag */
+}
+
+.tags:nth-child(3) {
+  background-color: #6a7c4f; /* Custom color for the third tag */
+}
+
+.tags:nth-child(4) {
+  background-color: #008B8B; /* Custom color for the fourth tag */
+}
+
+.tags:last-child {
+  margin-right: 0; /* Remove margin for the last tag */
+}

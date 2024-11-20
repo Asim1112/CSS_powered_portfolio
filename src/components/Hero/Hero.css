@@ -1,0 +1,56 @@
+.hero {
+    min-height: 100vh; /* Equivalent to min-h-screen */
+    background-repeat: no-repeat; /* Equivalent to bg-no-repeat */
+    background-size: 20%; /* Equivalent to bg-cover (with specific background size) */
+    background-position: left 300px top 300px; /* Custom position for background */
+  }
+  
+  .hero-container {
+    display: grid; /* Equivalent to grid */
+    height: calc(100vh - 60px); /* Equivalent to h-[calc(100vh-60px)] */
+    grid-template-columns: repeat(1, 1fr); /* Default 1 column for small screens */
+  }
+  
+  .hero-container-lg {
+    display: grid; /* Equivalent to grid for large screens */
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to lg:grid-cols-2 for large screens */
+  }
+  
+  .hero-profile {
+    display: none; /* Initially hidden */
+    justify-content: center; /* Center the profile picture */
+    align-items: center; /* Center the profile picture */
+  }
+  
+  .hero-profile-visible {
+    display: flex; /* Display on large screens */
+  }
+  
+  .profile-picture {
+    width: 20rem; /* Equivalent to w-80 */
+    height: 20rem; /* Equivalent to h-80 */
+    border-radius: 50%; /* Equivalent to rounded-full */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Equivalent to shadow-2xl */
+    background-size: cover; /* Ensures image fills the circle */
+    background-position: center; /* Centers the profile image */
+  }
+  
+  .hero-text {
+    font-size: 5rem; /* Equivalent to text-[80px] */
+    font-weight: bold; /* Equivalent to font-bold */
+    line-height: 1.25; /* Equivalent to leading-tight */
+    display: flex; /* Use flex to center content */
+    flex-direction: column; /* Stack the text vertically */
+    justify-content: center; /* Center the text */
+    align-items: center; /* Center the text */
+}
+
+.hero-text-sm {
+    font-size: 6.25rem; /* Equivalent to sm:text-[100px] */
+}
+
+.hero-text p {
+    margin: 0; /* Remove default margins */
+    line-height: 1; /* Tighten line spacing */
+    padding: 0.1em 0; /* Optional: Add a slight vertical padding for spacing */
+}

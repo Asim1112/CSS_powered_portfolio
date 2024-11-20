@@ -1,0 +1,57 @@
+/* Navbar container */
+.navbar-container {
+    padding-top: 1.5rem; /* Equivalent to pt-8 */
+    margin: 0 auto; /* Centers the container */
+    max-width: 1500px; /* Match the default Tailwind container size */
+  }
+  
+  /* Navbar flex container */
+  .navbar-flex {
+    display: flex; /* Equivalent to flex */
+    justify-content: space-between; /* Equivalent to justify-between */
+    align-items: center; /* Equivalent to items-center */
+  }
+  
+  /* Logo or title */
+  .navbar-title {
+    font-size: 1.1rem; /* Equivalent to text-xl */
+    font-weight: 500; /* Equivalent to font-medium */
+  }
+  
+  /* Menu items */
+  .navbar-menu {
+    display: none; /* Initially hidden for smaller screens */
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  .navbar-menu-lg {
+    gap: 4rem; /* Equivalent to lg:gap-16 for larger screens */
+  }
+  
+  .navbar-menu-link {
+    list-style: none; /* Removes default list styling */
+  }
+  
+  .navbar-menu-link a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits text color */
+  }
+  
+  /* Mobile menu icon */
+  .navbar-menu-icon {
+    display: block; /* Visible on smaller screens */
+  }
+  
+  .navbar-menu-icon-md {
+    display: none; /* Hidden on medium screens and above */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .navbar-menu {
+      display: flex; /* Equivalent to md:flex */
+    }
+    .navbar-menu-icon {
+      display: none; /* Hides the icon on medium screens and above */
+    }
+  }
