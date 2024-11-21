@@ -20,7 +20,7 @@ function Hero() {
         {/* Text Content */}
         <div className="hero-text hero-text-sm">
           <div>
-            <p>I'm</p>
+            <p>I m</p>
             <p>Asim</p>
             <p>Hussain</p>
           </div>
